@@ -1071,7 +1071,6 @@ public class BloodBankSystem extends JFrame {
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(this, "Error fetching stock: " + ex.getMessage());
         }
-
         JLabel note = new JLabel("Units shown in red are running low (fewer than 5).", SwingConstants.CENTER);
         note.setFont(new Font(FONT, Font.ITALIC, 12));
         note.setForeground(Color.GRAY);
