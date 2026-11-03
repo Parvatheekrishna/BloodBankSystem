@@ -20,4 +20,5 @@ The database file is created automatically on the first run.
 
 ## Team
 Arjun Krishna S, Avani R Chandran, Parvatheekrishna K, Reehan Sidheek K
+
 Guide: Ms. Chaithanya C, Assistant Professor, Dept. of AI & DS, ASIET Kalady
