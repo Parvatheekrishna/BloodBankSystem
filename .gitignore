@@ -1,0 +1,6 @@
+*.class
+*.db
+out/
+bin/
+.vscode/
+project.zip
