@@ -1,18 +1,23 @@
-## Getting Started
+# Blood Bank Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A desktop application, built with Java Swing and SQLite, that manages
+blood donors, blood stock and blood requests for a blood bank.
 
-## Folder Structure
+## Features
+- Donor registration with automatic eligibility check (age 18-65, 90 days since last donation)
+- Find available donors by blood group
+- Blood requests approved or rejected automatically from stock
+- Dashboard with stock for all eight blood groups
+- Admin panel with donor list, request report and add stock
 
-The workspace contains two folders by default, where:
+## Technologies
+Java (JDK 11 or newer), Java Swing, SQLite, JDBC
+(sqlite-jdbc 3.45.1.0, slf4j-api 2.0.9, slf4j-simple 2.0.9)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to run
+Double-click `run.bat`, or run `BloodBankApp.jar`.
+The database file is created automatically on the first run.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Team
+Arjun Krishna S, Avani R Chandran, Parvatheekrishna K, Reehan Sidheek K
+Guide: Ms. Chaithanya C, Assistant Professor, Dept. of AI & DS, ASIET Kalady
